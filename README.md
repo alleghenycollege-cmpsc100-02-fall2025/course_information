@@ -52,8 +52,9 @@ Discord: `@jjumadinova`
 
 ## Class Meetings
 
+Alden 101
 Class Sessions: TTH 9:30am - 10:45am
-Lab Sessions: W 2:30pm - 4pm
+Lab Sessions: M 2:30pm - 4pm
 
 ## Description
 
