@@ -1,16 +1,12 @@
 # Overview
 
-We will first set up all essential tools for the course:
+This guide was in part prepared by Allegheny's ACM student chapter and is designed to set up the essential tools for the course. It includes:
 
 1. **Discord** - Communication
 2. **GitHub** - Version Control  
-3. **VS Code** - Code Editor
-
-<!-- Commented out for now:
-4. **Python** - Programming Language
-5. **Raspberry Pi Pico Extension** - Hardware
-6. **AI Tools** - Development Assistance
--->
+3. **VS Code** - Code Editor (with SSH key setup)
+4. **Git Configuration** - Version Control Identity Setup
+5. **Python** - Programming Language
 
 # 1. Discord Setup
 
@@ -29,7 +25,7 @@ We will first set up all essential tools for the course:
 - Join here: [discord.gg/tWa2BwXqSp](https://discord.gg/tWa2BwXqSp)
 - **Primary course communication channel**
 
-**ACM Discord Server:**
+**ACM Discord Server (optional):**
 
 - Join here: [discord.gg/4gm2jumuEd](https://discord.gg/4gm2jumuEd)
 - Get notified of events
@@ -74,8 +70,7 @@ We will first set up all essential tools for the course:
 **All Platforms:** [code.visualstudio.com/download](https://code.visualstudio.com/download)
 
 **Beginner Setup Guide:**  
-[VS Code Team Tutorial](https://www.youtube.com/watch?v=B-s71n0dHUk)
-
+For Reference: [VS Code Team Tutorial](https://www.youtube.com/watch?v=B-s71n0dHUk)
 - Official tutorial from VS Code team
 - Beginner-friendly
 - Highly efficient for learning
@@ -84,8 +79,8 @@ We will first set up all essential tools for the course:
 
 Once VS Code is installed, you can access the terminal:
 
-- **Windows/Linux:** `Ctrl + `` (backtick)
-- **macOS:** `Cmd + `` (backtick)
+- **Windows/Linux:** `Ctrl + ` (backtick)`
+- **macOS:** `control + ` (backtick)`
 - **Menu:** View → Terminal
 
 This integrated terminal will be used for all command-line operations in the following sections.
@@ -96,7 +91,7 @@ SSH keys provide secure authentication for Git operations and server access. **U
 
 ## Generate the SSH Key Pair:
 
-1. **Open VS Code's integrated terminal** (`Ctrl/Cmd + `` backtick)
+1. **Open VS Code's integrated terminal**
 2. **Run the SSH key generation command:**
 
 ```bash
@@ -104,16 +99,12 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
 - Press Enter to accept the default file location
-- Enter a passphrase when prompted (optional but recommended)
+- Enter a passphrase when prompted (you will need to enter it each time you send your work to GitHub, press Enter twice if you don't want to create passphrase)
 
 ## Add the Public Key to GitHub:
 
 1. **Copy your public key from VS Code's terminal:**
    ```bash
-   # macOS/Linux:
-   cat ~/.ssh/id_rsa.pub
-   
-   # Windows (Git Bash or PowerShell):
    cat ~/.ssh/id_rsa.pub
    ```
 
@@ -121,42 +112,215 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
    - Go to GitHub Settings → SSH and GPG keys
    - Click "New SSH key"
    - Paste your public key
-   - Give it a descriptive title (e.g., "My Development Machine")
+   - Give it a descriptive title (e.g., "HP Machine")
 
 3. **Test the connection from VS Code's terminal:**
    ```bash
    ssh -T git@github.com
    ```
    
-   You should see a message like: "Hi username! You've successfully authenticated..."
+   You should see a message similar to: "You've successfully authenticated..."
+
+# 4. Git Configuration
+
+## Verify Git is Working
+
+First, let's confirm Git is installed:
+
+```bash
+git --version
+```
+
+You should see something like `git version 2.x.x`
+
+## Configure Git Identity (Required for Commits)
+
+**Before you can make any commits, Git needs to know who you are:**
+
+```bash
+git config --global user.name "Your Full Name"
+git config --global user.email "your.email@example.com"
+```
+
+**Example:**
+```bash
+git config --global user.name "Jane Smith"
+git config --global user.email "jane.smith@allegheny.edu"
+```
+
+**Verify your configuration:**
+```bash
+git config --global --list
+```
+
+You should see your name and email listed.
+
+## Why This Configuration Matters
+
+- **Every commit** includes author information
+- **GitHub needs this** to link commits to your profile
+- **Required for grading** - we need to identify your work
+- **Professional practice** - proper attribution in team projects
+
+**Your Git setup is now complete for making commits!**
+
+# 5. Python Installation
+
+Mac and Linux Users: check if you have the correct version of Python installed already on your machine. 
+
+Open VS Code's integrated terminal and run:
+```bash
+python3 --version
+```
+
+OR 
+```bash
+python --version
+```
+**We will be using Python 3.12.** If you have Python 2.x, please install the Python 3 version by following instructions below.
+
+## Installation by Operating System
+
+Choose the instructions for your operating system. Since you already have VS Code installed, we will focus on getting Python set up and working with your editor.
+
+### macOS Installation
+
+**Option 1: Official Python Installer (Recommended)**
+1. Go to [python.org/downloads](https://python.org/downloads)
+2. Download the latest Python 3.x version for macOS
+3. Run the downloaded `.pkg` file
+4. Follow the installation wizard (default options are fine)
+5. **Important**: Check "Add Python to PATH" if prompted
+
+**Option 2: Using Homebrew (if you have it installed)**
+```bash
+brew install python
+```
+
+**Verify Installation:**
+Open VS Code's integrated terminal and run:
+```bash
+python3 --version
+```
+You should see something like `Python 3.x.x`
+
+### Windows Installation
+
+**Official Python Installer**
+1. Go to [python.org/downloads](https://python.org/downloads)
+2. Click "Download Python 3.x.x" (latest version)
+3. Run the downloaded `.exe` file
+4. **IMPORTANT**: Check "Add Python to PATH" checkbox at the bottom
+5. Click "Install Now"
+6. If prompted, allow the installer to disable path length limit
+
+**Verify Installation:**
+Open VS Code's integrated terminal and run:
+```bash
+python --version
+```
+or
+```bash
+python3 --version
+```
+You should see something like `Python 3.x.x`
+
+**If Python is not recognized on Windows:**
+
+If you get an error like "'python' is not recognized as an internal or external command", you need to add Python to your PATH:
+
+1. **Find your Python installation path:**
+   - Usually located at: `C:\Users\YourUsername\AppData\Local\Programs\Python\Python3X\`
+   - Or: `C:\Python3X\`
+
+2. **Add Python to PATH:**
+   - Press `Windows + R`, type `sysdm.cpl`, press Enter
+   - Click "Environment Variables" button
+   - Under "System Variables", find and select "Path", click "Edit"
+   - Click "New" and add your Python path (e.g., `C:\Users\YourUsername\AppData\Local\Programs\Python\Python312\`)
+   - Also add the Scripts folder: `C:\Users\YourUsername\AppData\Local\Programs\Python\Python312\Scripts\`
+   - Click "OK" on all windows
+   - **Restart VS Code** and try again
+
+3. **Alternative method using VS Code terminal:**
+   ```bash
+   # Check if Python is installed but not in PATH
+   where python
+   # or
+   py --version
+   ```
+
+### Linux Installation
+
+**Ubuntu/Debian:**
+```bash
+sudo apt update
+sudo apt install python3 python3-pip
+```
+
+**Verify Installation:**
+Open VS Code's integrated terminal and run:
+```bash
+python3 --version
+```
+You should see something like `Python 3.x.x`
 
 <!--
-# 4. Python Installation
+## Test Your Python Installation
 
-## Installation Requirements
+Let's make sure Python is working correctly with a simple "Hello World" program.
 
-Different methods for different operating systems!
+### Create Your First Python Program
 
-**Helpful Resource:**  
-[Real Python Installation Guide](https://realpython.com/installing-python/)
+1. **In VS Code, create a new file:**
+   - Press `Ctrl+N` (Windows/Linux) or `Cmd+N` (macOS) or go to File -> New File
+   - Save it as `hello.py` in a folder of your choice
 
-**Choose your OS:**
+2. **Copy and paste this code:**
+   ```python
+   print("Hello, World!")
+   print("Python is working correctly!")
+   
+   # Let's also check the Python version
+   import sys
+   print(f"You are running Python {sys.version}")
+   ```
 
-- Windows, macOS, or Linux guides available
-- **Use the Official Installer method**
+3. **Run your program:**
+   - Open VS Code's integrated terminal
+   - Navigate to where you saved `hello.py`
+   - Run the program:
+     
+     **macOS/Linux:**
+     ```bash
+     python3 hello.py
+     ```
+     
+     **Windows:**
+     ```bash
+     python hello.py
+     ```
 
-## Installation Tips
+4. **Expected output:**
+   ```
+   Hello, World!
+   Python is working correctly!
+   You are running Python 3.x.x
+   ```
 
-**Unsure about your OS?**
+### Troubleshooting
 
-- Don't hesitate to ask!
-- Department laptops generally use **Linux**
+**If you get "command not found" or "not recognized":**
+- Make sure Python was added to your system PATH during installation
+- Try using `python3` instead of `python` (especially on macOS/Linux)
+- Restart VS Code and your terminal
 
-**Installation Options:**
+**Still having issues?**
+- Ask for help!
+- Check if Python is installed: look for Python in your Applications (macOS) or Programs (Windows)
+-->
 
-- Default options are usually fine
-- Ask questions if you're unsure!
-
+<!--
 # 5. Raspberry Pi Pico Extension
 
 ## Installing the Extension
@@ -172,6 +336,7 @@ Different methods for different operating systems!
 
 - Look for the official publisher name
 - Avoid unofficial extensions
+  
 
 # 6. AI Tools Setup
 
