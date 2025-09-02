@@ -133,6 +133,8 @@ git --version
 
 You should see something like `git version 2.x.x`
 
+If you don't install git at [https://git-scm.com/downloads](https://git-scm.com/downloads)
+
 ## Configure Git Identity (Required for Commits)
 
 **Before you can make any commits, Git needs to know who you are:**
