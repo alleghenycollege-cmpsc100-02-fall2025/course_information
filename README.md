@@ -113,7 +113,7 @@ GitHub and Discord are the main digital channels used in this course for communi
 | Category | Total Points | Number of Items | Points per Item |
 |----------|-------------|----------------|----------------|
 | Labs | 40 | 9 | 4.5 |
-| In-Class Activities | 15 | TBD | averaged |
+| In-Class Activities | 15 | 15 | 1 |
 | Code Reviews | 20 | 9 | 2.2 |
 | Midterm | 10 | 1 | 10 |
 | Final Project | 15 | 1 | 15 |
