@@ -34,7 +34,7 @@ Below is a tentative schedule of covered topics and associated activities. The s
 | **13** | Nov 17–21 | **Projects II**: Iterative refinement. Discuss ethical & cultural impacts of computing. | Project Development, Class Activity: Computing Ethics Discussion | LO4, LO5; ME (expression through design), SP (societal role of computation). |
 | **14** | Nov 24–25 | **Final Project** + wrap-up. Review for Data Structures: recursion intro, data abstractions, course reflection. <br>**Nov 26–30: Thanksgiving Break (no class)** | Course Reflection Activities | LO1–5; ME (presentation & expression), SP (scientific reflection, inquiry). |
 | **15** | Dec 1–5 | **Final Project** + wrap-up. Review for Data Structures: recursion intro, data abstractions, course reflection. | Final Project Work | LO1–5; ME (presentation & expression), SP (scientific reflection, inquiry). |
-| **16** | Dec 8 at 9:00 am | **Final Exam Week** | **Final Project Presentations** | LO1–5; SP (cumulative demonstration of inquiry & reasoning). |
+| **16** | Dec 8 at 7:00 pm | **Final Exam Week** | **Final Project Presentations** | LO1–5; SP (cumulative demonstration of inquiry & reasoning). |
 
 ## Instructor
 
