@@ -162,16 +162,15 @@ This course will follow [department's policies](https://www.cis.allegheny.edu/te
 
 ### Late assignments
 
-Late assignments will not be accepted unless a token is applied at
-least 24 hours before the assignment deadline. To apply a token, complete [this form](https://forms.gle/5VTNBhkM92tfXHFU9). Token can not be used for a final project.
+Late assignments will not be accepted unless a token is applied, ideally before the assignment deadline. To apply a token, complete [this form](https://forms.gle/5VTNBhkM92tfXHFU9). The token can not be used for a final project.
 
-These tokens are no‑questions‑asked. They are meant to accomodate emergency situations, illnesses, athletic events, so there
+These tokens are no‑questions‑asked. They are meant to accommodate emergencies, illnesses, athletic events, so there
 is no need to provide an excuse when applying a token.
 
 You will have 4 tokens, and each can do one of the following:
-- Extends one assignment's deadline by one week (must be applied 24 hours in advance)
+- Extends one assignment's deadline by two weeks
 OR
-- Allows resubmit of one project assignment one week after receiving your grade. Resubmits can
+- Allows resubmit of one project assignment two weeks after receiving your grade. Resubmits can
 only be used on projects where an on‑time attempt was made (an attempt means that you have
 started the assignment and tried at least half the objectives).
 
