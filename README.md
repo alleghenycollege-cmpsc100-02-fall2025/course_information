@@ -21,20 +21,20 @@ Below is a tentative schedule of covered topics and associated activities. The s
 |------|-------|--------|------------------------|-------------------------|
 | **1** | Aug 26–29 | **Course Introduction & Computational Thinking**: [Slides: Overview of CIS](https://docs.google.com/presentation/d/e/2PACX-1vQCMNP1R96XEBOCXslFt317L8TGzKoIIGnh7sfczqAk_9_KGzzFAYwDWm8JtbRY5Q/pub?start=false&loop=false&delayms=3000). What is an algorithm? Abstraction, problem-solving. Begin setup of VSCode and Git. | <li>Class Activities: Algorithm Thinking. VSCode & Git Setup Workshop ([Setup Guide](materials/setup.md)).</li> <li>Read: Syllabus & Department Policies. </li>| LO1, LO2; ME (expression through symbolic systems), SP (algorithmic reasoning, inquiry into computing as a science). |
 | **2** | Sep 1–5 | **Python Foundations I**: <ol><li>Continue VSCode + Git workflow ([Setup Guide](materials/setup.md)). [Slides: File Systems](https://computational-expression.github.io/course_information/week02/file_systems.html).</li> <li>[Slides: Python Basics](https://computational-expression.github.io/course_information/week02/python_basics.html)</li></ol> | <li> Practice terminal commands </li> <li>Class Activity: [Git and Python Practice](https://classroom.github.com/a/rnnw94Y0) </li> | LO1, LO2; ME (expression through code), SP (scientific reasoning with symbolic models). |
-| **3** | Sep 8–12 | <li>**Python Foundations II**: [Slides: Types & Operations](https://computational-expression.github.io/course_information/week03/types_operations.html) </li> <li>**Control Flow I**: Conditionals, Boolean logic.</li>  | <li>[Lab 1: Sensor Dashboard](https://classroom.github.com/a/lkTA2x4Z).</li> <li>[Activity1: Calculator](https://classroom.github.com/a/kbwzsVx4)</li> <li> Read(optional): [Python Basics: Chapter 1](https://automatetheboringstuff.com/3e/chapter1.html)</li> | LO1; SP (logical reasoning as inquiry). |
-| **4** | Sep 15–19 | **Control Flow II**: Loops, iteration patterns. Intro to problem decomposition. | Lab 2: Loops & Iteration, Class Activity: Problem Decomposition | LO1; SP (iterative exploration of solutions). |
-| **5** | Sep 22–26 | **Functions & Modular Design**: Parameters, return values, scope. Writing reusable code. | Lab 3: Functions, Class Activity: Modular Programming | LO1, LO2; ME (expression through modular organization). |
-| **6** | Sep 29–Oct 3 | **Data Structures I**: Lists, indexing, iteration. Problem-solving with collections. | Lab 4: Lists & Collections, Class Activity: Data Organization | LO1; SP (organizing & analyzing data). |
-| **7** | Oct 6–8 | **Data Structures II**: Dictionaries, key/value mappings. Debugging strategies and error messages. <br>**Oct 9–12: Fall Break (no class)** | Lab 5: Dictionaries, Class Activity: Debugging Practice | LO1, LO3; SP (structured data, error correction). |
-| **8** | Oct 13–17 | **Midterm Week**: In-class review and **Midterm Exam**. Start code analysis: reading others' programs, suggesting revisions. | Midterm Review Session, Midterm Exam, Code Analysis Kickoff | LO3; SP (critical analysis of algorithms). |
-| **9** | Oct 20–24 | **Testing & Debugging**: Testing functions, systematic debugging, revising programs for correctness. | Lab 6: Testing & Debugging, Class Activity: Test-Driven Development | LO2, LO3; SP (systematic problem solving). |
-| **10** | Oct 27–31 | **Object-Oriented Programming I**: Classes, objects, attributes. Abstraction and modeling real-world systems. | Lab 7: Classes & Objects, Class Activity: Real-World Modeling | LO1, LO5; ME (expressing models), SP (modeling inquiry). |
-| **11** | Nov 3–7 | **Object-Oriented Programming II**: Methods, encapsulation.  <br>**Nov 4: All-College Programming Day (no class)** | Lab 8: Methods & Encapsulation, Project Proposal Workshop | LO1, LO5; ME (creating expressive computational artifacts). |
-| **12** | Nov 10–14 | **Projects I**: Drafting project proposals. Implementing classes with lists/dicts. Peer review and revision practices. | Project Development, Lab 9: Advanced Data Structures, Peer Review Sessions | LO2, LO3, LO5; ME (communication through code), SP (collaborative inquiry). |
+| **3** | Sep 8–12 | <li>**Python Foundations II**: [Slides: Types & Operations](https://computational-expression.github.io/course_information/week03/types_operations.html) </li> <li>**Control Flow I**: [Conditionals, Boolean logic](https://computational-expression.github.io/course_information/week03/conditionals.html). </li> | <li>[Activity 1: Calculator](https://classroom.github.com/a/X-7k7wvC) (DUE: 9:30am Sep. 11)</li> <li>[Lab 1: Sensor Dashboard](https://classroom.github.com/a/wrMhTf8U) (DUE: 2:30pm Sep. 15)</li>  <li> Read(optional): [Python Basics: Chapter 1](https://automatetheboringstuff.com/3e/chapter1.html)</li>  | LO1; SP (logical reasoning as inquiry). |
+| **4** | Sep 15–19 | <li>**Control Flow I**: [Conditionals, Boolean logic](https://computational-expression.github.io/course_information/week03/conditionals.html).</li> <li>**Control Flow II**: [Loops](https://computational-expression.github.io/course_information/week04/loops.html).</li> | <li>[Lab 2](https://classroom.github.com/a/Kn4PBGkI) (DUE: 2:30pm Sep. 22)</li> <li>[Activity 2: Team Synergy](https://classroom.github.com/a/y-nsZX5n) (DUE: 9:30am Sep. 18)</li> <li>[Activity 3: Adventure Game Design](https://classroom.github.com/a/VFA9OGCC) (DUE: 9:30am Sep 23)</li> <li> Read(optional): [If-else and Control Flow](https://automatetheboringstuff.com/3e/chapter2.html)</li> <li> [Practice Activity 1](https://classroom.github.com/a/p6NOUEky) (Optional, no deadline)</li>| LO1; SP (iterative exploration of solutions). |
+| **5** | Sep 22–26 | <li>**Control Flow II**: [Loops, iteration patterns](https://computational-expression.github.io/course_information/week04/loops.html).</li> <li>[Debugging](https://computational-expression.github.io/course_information/week05/debugging.html)</li> | <li>[Lab 3](https://classroom.github.com/a/UjKfK3hO) (DUE: 2:30pm Sep. 29)</li> <li>[Activity 4: Finding Bugs](https://classroom.github.com/a/aKYBE8CE) (DUE: 9:30am Sep. 30)</li> <li>Read(optional): [Loops](https://automatetheboringstuff.com/3e/chapter3.html)</li> <li> [Practice Activity 1](https://classroom.github.com/a/p6NOUEky) (Optional, no deadline)</li> | LO1, LO2; ME (expression through modular organization). |
+| **6** | Sep 29–Oct 3 | <li>**Data Structures I**: [Lists](https://computational-expression.github.io/course_information/week06/lists.html).</li> <li>[Hardware Foundations](https://computational-expression.github.io/course_information/week06/hardware.html)</li> |  <li>[Lab 4](https://classroom.github.com/a/zfcqT0bo) (DUE: 2:30pm Oct. 6)</li> <li>[Activity 5: NFL Fantasy](https://classroom.github.com/a/guJqAnow) (DUE: 9:30am Oct. 2)</li> <li> Read(optional): [Debugging](https://automatetheboringstuff.com/3e/chapter5.html) and [Lists](https://automatetheboringstuff.com/3e/chapter6.html).</li>| LO1; SP (organizing & analyzing data). |
+| **7** | Oct 6–8 | [Lists](https://computational-expression.github.io/course_information/week06/lists.html). <br>**Oct 9–12: Fall Break (no class)** | [Lab 5](https://classroom.github.com/a/-Wysa3aM) (DUE: 2:30pm Oct. 13) | LO1, LO3; SP (structured data, error correction). |
+| **8** | Oct 13–17 | **Midterm Week**: [Practice Exam](https://github.com/alleghenycollege-cmpsc100-02-fall2025/course_information/blob/main/materials/practice_midterm.md), [Practice Exam Answer Key](https://github.com/alleghenycollege-cmpsc100-02-fall2025/course_information/blob/main/materials/practice_midterm_answer_key.md), In-class review and **Midterm Exam on Oct. 16 at 9:30am**.  | Midterm Review Session, Midterm Exam | LO3; SP (critical analysis of algorithms). |
+| **9** | Oct 20–24 |  **Functions & Modular Design**: Parameters, return values, scope. Writing reusable code.  | Lab 6 | LO2, LO3; SP (systematic problem solving). |
+| **10** | Oct 27–31 | **Data Structures II**: Dictionaries, key/value mappings. | Lab 7 | LO1, LO5; ME (expressing models), SP (modeling inquiry). |
+| **11** | Nov 3–7 | **Object-Oriented Programming I**: Classes, objects, attributes. Abstraction.  <br>**Nov 4: All-College Programming Day (no class)** | Lab 8, Project Proposal Workshop | LO1, LO5; ME (creating expressive computational artifacts). |
+| **12** | Nov 10–14 | **Object-Oriented Programming II**: Methods, encapsulation. **Projects I**: Drafting project proposals. Implementing classes with lists/dicts. Peer review and revision practices. | Project Development, Lab 9 | LO2, LO3, LO5; ME (communication through code), SP (collaborative inquiry). |
 | **13** | Nov 17–21 | **Projects II**: Iterative refinement. Discuss ethical & cultural impacts of computing. | Project Development, Class Activity: Computing Ethics Discussion | LO4, LO5; ME (expression through design), SP (societal role of computation). |
 | **14** | Nov 24–25 | **Final Project** + wrap-up. Review for Data Structures: recursion intro, data abstractions, course reflection. <br>**Nov 26–30: Thanksgiving Break (no class)** | Course Reflection Activities | LO1–5; ME (presentation & expression), SP (scientific reflection, inquiry). |
 | **15** | Dec 1–5 | **Final Project** + wrap-up. Review for Data Structures: recursion intro, data abstractions, course reflection. | Final Project Work | LO1–5; ME (presentation & expression), SP (scientific reflection, inquiry). |
-| **16** | Dec 8 at 7pm | **Final Exam Week** | **Final Project Presentations** | LO1–5; SP (cumulative demonstration of inquiry & reasoning). |
+| **16** | Dec 8 at 7:00 pm | **Final Exam Week** | **Final Project Presentations** | LO1–5; SP (cumulative demonstration of inquiry & reasoning). |
 
 ## Instructor
 
@@ -113,7 +113,7 @@ GitHub and Discord are the main digital channels used in this course for communi
 | Category | Total Points | Number of Items | Points per Item |
 |----------|-------------|----------------|----------------|
 | Labs | 40 | 9 | 4.5 |
-| In-Class Activities | 15 | TBD | averaged |
+| In-Class Activities | 15 | 15 | 1 |
 | Code Reviews | 20 | 9 | 2.2 |
 | Midterm | 10 | 1 | 10 |
 | Final Project | 15 | 1 | 15 |
@@ -162,16 +162,15 @@ This course will follow [department's policies](https://www.cis.allegheny.edu/te
 
 ### Late assignments
 
-Late assignments will not be accepted unless a token is applied at
-least 24 hours before the assignment deadline. To apply a token, complete [this form](https://forms.gle/5VTNBhkM92tfXHFU9). Token can not be used for a final project.
+Late assignments will not be accepted unless a token is applied, ideally before the assignment deadline. To apply a token, complete [this form](https://forms.gle/5VTNBhkM92tfXHFU9). The token can not be used for a final project.
 
-These tokens are no‑questions‑asked. They are meant to accomodate emergency situations, illnesses, athletic events, so there
+These tokens are no‑questions‑asked. They are meant to accommodate emergencies, illnesses, athletic events, so there
 is no need to provide an excuse when applying a token.
 
 You will have 4 tokens, and each can do one of the following:
-- Extends one assignment's deadline by one week (must be applied 24 hours in advance)
+- Extends one assignment's deadline by two weeks
 OR
-- Allows resubmit of one project assignment one week after receiving your grade. Resubmits can
+- Allows resubmit of one project assignment two weeks after receiving your grade. Resubmits can
 only be used on projects where an on‑time attempt was made (an attempt means that you have
 started the assignment and tried at least half the objectives).
 
