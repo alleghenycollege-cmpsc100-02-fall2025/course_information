@@ -27,7 +27,7 @@ Below is a tentative schedule of covered topics and associated activities. The s
 | **6** | Sep 29–Oct 3 | <li>**Data Structures I**: [Lists](https://computational-expression.github.io/course_information/week06/lists.html).</li> <li>[Hardware Foundations](https://computational-expression.github.io/course_information/week06/hardware.html)</li> |  <li>[Lab 4](https://classroom.github.com/a/zfcqT0bo) (DUE: 2:30pm Oct. 6)</li> <li>[Activity 5: NFL Fantasy](https://classroom.github.com/a/guJqAnow) (DUE: 9:30am Oct. 2)</li> <li> Read(optional): [Debugging](https://automatetheboringstuff.com/3e/chapter5.html) and [Lists](https://automatetheboringstuff.com/3e/chapter6.html).</li>| LO1; SP (organizing & analyzing data). |
 | **7** | Oct 6–8 | [Lists](https://computational-expression.github.io/course_information/week06/lists.html). <br>**Oct 9–12: Fall Break (no class)** | [Lab 5](https://classroom.github.com/a/-Wysa3aM) (DUE: 2:30pm Oct. 13) | LO1, LO3; SP (structured data, error correction). |
 | **8** | Oct 13–17 | **Midterm Week**: [Practice Exam](https://github.com/alleghenycollege-cmpsc100-02-fall2025/course_information/blob/main/materials/practice_midterm.md), [Practice Exam Answer Key](https://github.com/alleghenycollege-cmpsc100-02-fall2025/course_information/blob/main/materials/practice_midterm_answer_key.md), [In-class review](https://docs.google.com/presentation/d/1pIZyIB0j7sc-1aoxJoOhnEQCjtbTqsCil6NHqjUxCUE/edit?usp=sharing), and **Midterm Exam on Oct. 16 at 9:30am**.  | Midterm Review, Midterm Exam | LO3; SP (critical analysis of algorithms). |
-| **9** | Oct 20–24 |  **Functions & Modular Design**: Parameters, return values, scope. Writing reusable code.  | Lab 6 | LO2, LO3; SP (systematic problem solving). |
+| **9** | Oct 20–24 |  **Functions & Modular Design**: [Parameters, return values, scope.](https://computational-expression.github.io/course_information/week09/functions.html)  | <li>[Activity 6](https://classroom.github.com/a/l7j5NpTU) (DUE: 9:30am Oct. 21)</li> <li>Lab 6</li> | LO2, LO3; SP (systematic problem solving). |
 | **10** | Oct 27–31 | **Data Structures II**: Dictionaries, key/value mappings. | Lab 7 | LO1, LO5; ME (expressing models), SP (modeling inquiry). |
 | **11** | Nov 3–7 | **Object-Oriented Programming I**: Classes, objects, attributes. Abstraction.  <br>**Nov 4: All-College Programming Day (no class)** | Lab 8, Project Proposal Workshop | LO1, LO5; ME (creating expressive computational artifacts). |
 | **12** | Nov 10–14 | **Object-Oriented Programming II**: Methods, encapsulation. **Projects I**: Drafting project proposals. Implementing classes with lists/dicts. Peer review and revision practices. | Project Development, Lab 9 | LO2, LO3, LO5; ME (communication through code), SP (collaborative inquiry). |
@@ -121,16 +121,16 @@ GitHub and Discord are the main digital channels used in this course for communi
 
 #### Breakdown:
 ##### Labs (40 points)
-Weekly hands-on programming assignments where you write Python code for the Pico W. Each lab builds on previous work and develops skills toward your final IoT project. Points are based on correct functionality, code clarity, and a short reflection explaining your approach.
+Weekly hands-on programming assignments where you write Python code for a specific application. In most labs, you will work on the Pico 2W, with each subsequent lab building on previous work and developing skills toward your final IoT project. Points are based on correct functionality, code clarity, and a short reflection explaining your approach.
 
 ##### In-Class Activities (15 points)
-Engaging exercises done during class, including mini coding challenges, debugging tasks, and short ethical or design discussions. These activities help you practice new concepts, collaborate with classmates, and get immediate feedback.
+Engaging exercises done during class, including mini coding challenges, debugging tasks, and short ethical or design discussions. These activities help you practice new concepts, in preparation for the lab. These activities are graded based on completion (50% or more), not correctness.
 
 ##### Code Review (20 points)
 During lab sessions, you will verbally explain your own code or a peer's code. In addition to describing what the code does and how it works, you will answer conceptual questions related to your code to demonstrate understanding of underlying programming concepts. This helps develop both communication skills and conceptual mastery.
 
 ##### Midterm Exam (10 points)
-A short assessment partway through the semester covering Python fundamentals, code analysis, and a brief ethical or design reflection. This checks your progress and understanding before the final project.
+A short assessment partway through the semester covering Python fundamentals, code analysis, and code writing. This checks your progress and understanding of fundamentals.
 
 ##### Final Project (15 points)
 A culminating IoT system using the Pico 2 W. You will submit a working prototype, documentation, and give an oral walkthrough explaining your code and design decisions. This demonstrates your ability to integrate Python, hardware, and professional practices.
@@ -159,6 +159,10 @@ issue.
 ### Department Policies
 
 This course will follow [department's policies](https://www.cis.allegheny.edu/teaching/policies/), with more specified applications of the policies described below.
+
+### Attendance
+
+General department's policy allows for no more than two weeks of absences without the impact to the course grade. In this class this means, you can miss a total of 8 sessions (class and lab combined) before your final course grade is reduced by a letter grade. A miss of of more than 16 sessions results in a course grade reduction of two letter grades, and so on.
 
 ### Late assignments
 
