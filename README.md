@@ -33,8 +33,8 @@ Below is a tentative schedule of covered topics and associated activities. The s
 | **12** | Nov 10–14 | <li>**Object-Oriented Programming II**: [Methods, encapsulation](https://computational-expression.github.io/course_information/week11/oop_intro.html).</li> <li>[VSCode Tricks and LLM Use](https://computational-expression.github.io/course_information/week12/vscode_and_copilot.html)</li>| <li>[Activity 10: Objects](https://classroom.github.com/a/OgkyikVu) (DUE: Nov. 11 9:30am)</li> <li>[Lab 9: Sensing System](https://classroom.github.com/a/4bVMnlO-) (DUE: 9:30am Nov. 18)</li> <li>[Activity 11: Project Ideation](https://classroom.github.com/a/10WzBD48) (DUE: 2:30pm Nov. 17)</li> | LO2, LO3, LO5; ME (communication through code), SP (collaborative inquiry). |
 | **13** | Nov 17–21 | <li>**Final Projects**</li> <li>**Object-Oriented Programming III**: [Modules](https://computational-expression.github.io/course_information/week11/oop_intro.html).</li> | <li>[Final Project](https://classroom.github.com/a/Y0fHdarK)</li> | LO4, LO5; ME (expression through design), SP (societal role of computation). |
 | **14** | Nov 24–25 | **Final Project**. Ethical & cultural impacts of computing. <br>**Nov 26–30: Thanksgiving Break (no class)** | Course Reflection Activities | LO1–5; ME (presentation & expression), SP (scientific reflection, inquiry). |
-| **15** | Dec 1–5 | **Final Project**. Ethical & cultural impacts of computing. | Final Project Work | LO1–5; ME (presentation & expression), SP (scientific reflection, inquiry). |
-| **16** | Dec 8 at 7:00 pm | **Final Exam Week** | **Final Project Presentations** | LO1–5; SP (cumulative demonstration of inquiry & reasoning). |
+| **15** | Dec 1–5 | **Final Project**. **Return hardware**. Ethical & cultural impacts of computing. | Final Project Work | LO1–5; ME (presentation & expression), SP (scientific reflection, inquiry). |
+| **16** | Dec 8 at 7:00 pm | **Final Exam Week**, **Return hardware** | **Final Project Presentations** | LO1–5; SP (cumulative demonstration of inquiry & reasoning). |
 
 ## Instructor
 
